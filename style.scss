@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+$primary: #181818;
+$secondary: #2651a8;
+$white: #fff;
+$gray: #a6a2c3;
+$lightGray: #a2a2a2;
+$fontFamily: "Didact Gothic", sans-serif;
+$fontSize: 16px;
+$transition: 0.4s ease-in-out;
+$padding: 80px 0;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: 1.5;
+    color: $primary;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    color: $white;
+}
+h2 {
+    font-size: 2.75rem;
+}
+.lead {
+    font-size: 1.5rem;
+    color: $gray;
+    margin-bottom: 60px;
+}
+.btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: $secondary;
+    color: $white;
+    border: none;
+    margin-top: 60px;
+    transition: background-color $transition;
+    cursor: pointer;
+    &:hover {
+        color: $white;
+        background-color: $primary;
+    }
+}
+.blue {
+    background-color: $secondary;
+}
+
+header {
+    background: linear-gradient(rgba(1, 0, 0, 0.5), rgba(1, 0, 0, 0.5)), url(./img/header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: $padding;
+    text-align: center;
+
+    hgroup {
+        margin: 200px 0;
+        h1 {
+            font-size: 4rem;
+            color: $white;
+        }
+        p {
+            font-size: 2rem;
+            color: rgba($white, 0.7);
+        }
+        .btn {
+            margin: 30px 0 50px 0;
+        }
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 0 0 50%;
+        li {
+            a {
+                border-radius: 5px;
+                padding: 15px 25px;
+                font-size: 1.25rem;
+                transition: background-color $transition;
+                &:hover {
+                    background-color: $secondary;
+                }
+            }
+        }
+    }
+    .logo {
+        font-size: 2rem;
+    }
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 0 0 50%;
+        li {
+            a {
+                border-radius: 5px;
+                padding: 15px 25px;
+                font-size: 1.25rem;
+                transition: background-color $transition;
+                &:hover {
+                    background-color: $secondary;
+                }
+            }
+        }
+    }
+    .logo {
+        font-size: 2rem;
+    }
+}
+.first {
+    padding: $padding;
+    text-align: center;
+    article {
+        display: flex;
+        .col {
+            flex: 0 0 33%;
+            .btn {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+.second {
+    background-color: $secondary;
+    padding: $padding;
+    color: $white;
+    text-align: center;
+    a {
+        text-decoration: underline;
+    }
+    .btn {
+        background-color: $white;
+        color: $secondary;
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+}
+
+footer {
+    background-color: $primary;
+    color: $lightGray;
+    text-align: center;
+    padding: $padding;
+    p {
+        a {
+            text-decoration: underline;
+            color: $white;
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+    ul {
+        display: flex;
+        width: 50%;
+    }
+    nav {
+        margin-top: 20px;
+        ul {
+            flex: 0 0 400px;
+            margin: 0 auto;
+            li {
+                a {
+                    padding: 0;
+                    font-size: 1rem;
+                    &:hover {
+                        background: none;
+                        color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+}

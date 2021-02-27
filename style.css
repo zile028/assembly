@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #181818;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  color: #a6a2c3;
+  margin-bottom: 60px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: #2651a8;
+  color: #fff;
+  border: none;
+  margin-top: 60px;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #181818;
+}
+
+.blue {
+  background-color: #2651a8;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 0, 0, 0.5)), to(rgba(1, 0, 0, 0.5))), url(./img/header.jpg) no-repeat;
+  background: linear-gradient(rgba(1, 0, 0, 0.5), rgba(1, 0, 0, 0.5)), url(./img/header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+}
+
+header hgroup {
+  margin: 200px 0;
+}
+
+header hgroup h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+header hgroup p {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+header hgroup .btn {
+  margin: 30px 0 50px 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+nav ul li a {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 1.25rem;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #2651a8;
+}
+
+nav .logo {
+  font-size: 2rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+nav ul li a {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 1.25rem;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #2651a8;
+}
+
+nav .logo {
+  font-size: 2rem;
+}
+
+.first {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.first article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first article .col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+}
+
+.first article .col .btn {
+  margin-top: 40px;
+}
+
+.second {
+  background-color: #2651a8;
+  padding: 80px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.second a {
+  text-decoration: underline;
+}
+
+.second .btn {
+  background-color: #fff;
+  color: #2651a8;
+}
+
+.second .btn:hover {
+  background-color: #181818;
+  color: #fff;
+}
+
+footer {
+  background-color: #181818;
+  color: #a2a2a2;
+  text-align: center;
+  padding: 80px 0;
+}
+
+footer p a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+footer p a:hover {
+  color: #2651a8;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+footer nav {
+  margin-top: 20px;
+}
+
+footer nav ul {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 400px;
+          flex: 0 0 400px;
+  margin: 0 auto;
+}
+
+footer nav ul li a {
+  padding: 0;
+  font-size: 1rem;
+}
+
+footer nav ul li a:hover {
+  background: none;
+  color: #2651a8;
+}
+/*# sourceMappingURL=style.css.map */
